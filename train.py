@@ -42,7 +42,7 @@ def main():
     # 4. Start MLflow experiment
     mlflow.set_experiment("iris-random-forest-demo")
 
-    with mlflow.start_run(run_name="Random_Forest_ver 2"):
+    with mlflow.start_run(run_name="Random_Forest_ver 1"):
         # Log parameters
         mlflow.log_param("n_estimators", model_params["n_estimators"])
         mlflow.log_param("max_depth", model_params["max_depth"])
