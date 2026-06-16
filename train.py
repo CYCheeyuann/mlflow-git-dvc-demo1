@@ -1,5 +1,5 @@
 # This code train the random forest model using parameter in params.yaml file
-# Apply to random forest dataset
+# Apply to random forest dataset.......abcd
 
 import yaml
 import joblib
