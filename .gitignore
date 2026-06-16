@@ -1,0 +1,10 @@
+dist/
+wheels/
+*.egg-info
+# Virtual environments
+.venv/
+__pycache__/
+mlruns/
+data/
+models/
+mlflow.db
